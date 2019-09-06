@@ -16,17 +16,15 @@ To run Default SSD (Single Shot Detection) algorithm:
 
     `sudo apt-get install ros-kinetic-usb_cam ros-kinetic-openni2-launch`
 
-3. Install tensorflow into python virtualenv: https://www.tensorflow.org/install/install_linux
+3. Install tensorflow into conda: After installing conda,
 
-    `sudo apt-get install python-pip python-dev python-virtualenv`
+    `source activate tensorflow`
 
-    `virtualenv --system-site-packages ~/tensorflow`
+    `pip install pyyaml`
 
-    `source ~/tensorflow/bin/activate`
+    `pip install rospkg`
 
-    `easy_install -U pip`
-
-    `pip install --upgrade tensorflow`
+    `pip install netifaces`
 
 4. `mkdir ~/catkin_ws/ && mkdir ~/catkin_ws/src/`
 
